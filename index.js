@@ -17,7 +17,8 @@ var array = ["joe", "fred"];
 function nowServing(array) {
   while (array.length > 0) {
     return `Currently serving ${array[0]}.`;
-    return array.shift();
+
   }
+  return array.shift();
   return "There is nobody waiting to be served!"
 }
