@@ -15,7 +15,7 @@ function takeANumber(name) {
 
 
 function nowServing(array){
-  while (array[i]){
+  while (array.length > 0){
     return `Currently serving ${array[0]}.`
     array.shift()
   }
