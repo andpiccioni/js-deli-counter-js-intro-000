@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name) {
     return `Welcome, ${name}. You are number ${katzDeliLine + 1} in line.`;
     katzDeliLine++;
   }
-  while (katzDeliLine > katzDeli.length)
+  while (katzDeliLine > 0)
   return katzDeli
   return katzDeliLine
 }
