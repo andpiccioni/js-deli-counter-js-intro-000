@@ -20,5 +20,4 @@ function nowServing(array){
     array.shift();
   }
   while (array.length > 0);
-  console.log("There is nobody waiting to be served!")
 }
