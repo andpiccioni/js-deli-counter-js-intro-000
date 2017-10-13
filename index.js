@@ -21,3 +21,11 @@ function nowServing(array){
   }
   while (array.length > 0);
 }
+
+function nowServing(array) {
+  while (array[i]) {
+    return `Currently serving ${array[0]}.`;
+    array.shift();
+  }
+  return "There is nobody waiting to be served!"
+}
