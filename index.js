@@ -21,4 +21,4 @@ function nowServing(array){
   }
   while (array.length > 0);
 }
-return "There is nobody waiting to be served!"
+console.log("There is nobody waiting to be served!")
