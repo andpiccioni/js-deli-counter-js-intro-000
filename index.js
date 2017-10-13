@@ -15,9 +15,8 @@ function takeANumber(name) {
 
 
 function nowServing(array) {
-  console.log("Array Length " + array.length);
   while (array.length > 0) {
-    (`Currently serving ${array[0]}.`);
+    console.log(`Currently serving ${array[0]}.`);
     array.shift();
   }
   return "There is nobody waiting to be served!"
