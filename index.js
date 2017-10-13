@@ -15,7 +15,7 @@ function takeANumber(name) {
 
 
 function nowServing(array) {
-  console.log(array.length);
+  console.log("Array Lenght " + array.length);
   while (array.length > 0) {
     console.log(`Currently serving ${array[0]}.`);
     array.shift();
