@@ -9,4 +9,6 @@ function takeANumber(name) {
     katzDeliLine++;
   }
   while (katzDeliLine > katzDeli.length)
+  return katzDeli
+  return katzDeliLine
 }
