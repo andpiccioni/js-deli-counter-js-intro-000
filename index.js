@@ -23,6 +23,7 @@ function nowServing(array){
 }
 
 function nowServing(array) {
+  var i = 0;
   while (array[i]) {
     return `Currently serving ${array[0]}.`;
     array.shift();
