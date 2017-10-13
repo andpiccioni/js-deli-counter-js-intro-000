@@ -15,10 +15,9 @@ function takeANumber(name) {
 
 
 function nowServing(array) {
-  var i = 0;
-  while (array[i]) {
+  while (array.length > 0) {
     return `Currently serving ${array[0]}.`;
-    array[i].shift()
+    array.shift()
   }
   return "There is nobody waiting to be served!"
 }
