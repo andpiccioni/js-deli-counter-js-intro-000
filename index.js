@@ -11,3 +11,14 @@ function takeANumber(name) {
   return katzDeli
   return katzDeliLine
 }
+
+
+
+function nowServing(array){
+  for(var i = 0; i < array.length; i++){
+    return array[i]
+    array.shift()
+  } else {
+    return "There is nobody waiting to be served!"
+  }
+}
