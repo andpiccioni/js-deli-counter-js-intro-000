@@ -13,12 +13,12 @@ function takeANumber(name) {
 }
 
 
-var array = ["joe", "fred"];
-function nowServing(array) {
-  while (array.length > 0) {
-    return `Currently serving ${array[0]}.`;
 
+function nowServing(array) {
+  console.log(array.length);
+  while (array.length > 0) {
+    console.log(`Currently serving ${array[0]}.`);
+    array.shift();
   }
-  return array.shift();
   return "There is nobody waiting to be served!"
 }
